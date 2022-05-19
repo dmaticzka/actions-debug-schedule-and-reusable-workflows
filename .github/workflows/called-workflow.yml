@@ -1,0 +1,11 @@
+name: called-workflow
+on:
+  workflow_call: []
+
+jobs:
+  called-job:
+    runs-on: [ self-hosted, Linux, X64, internet-enabled ]
+
+    steps:
+      - name: simple step
+        run: echo "this is the called workflow"
