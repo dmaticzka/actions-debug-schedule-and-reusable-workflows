@@ -1,7 +1,11 @@
 name: caller-simple
+
 on: [ push, workflow_dispatch ]
 
 jobs:
   call-local-workflow:
     runs-on: [ self-hosted, Linux, X64, internet-enabled ]
     uses: cicd/actions-debug-schedule-and-reusable-workflows/.github/workflows/called-workflow.yml@main
+  simple-steps:
+    steps:
+      run: echo "simple step"
