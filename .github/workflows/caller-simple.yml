@@ -1,6 +1,5 @@
 name: caller-simple
-on:
-  workflow_dispatch:
+on: [ push, workflow_dispatch ]
 
 jobs:
   call-local-workflow:
