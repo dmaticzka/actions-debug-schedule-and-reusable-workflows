@@ -1,0 +1,9 @@
+name: caller-simple
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+
+jobs:
+  call-local-workflow:
+    uses: cicd/actions-debug-schedule-and-reusable-workflows/.github/workflows/called-workflow.yml@main
