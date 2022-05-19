@@ -6,4 +6,4 @@ on:
 
 jobs:
   call-local-workflow:
-    uses: cicd/actions-debug-schedule-and-reusable-workflows/.github/workflows/called-workflow.yml@main
+    uses: dmaticzka/actions-debug-schedule-and-reusable-workflows/.github/workflows/called-workflow.yml@main
