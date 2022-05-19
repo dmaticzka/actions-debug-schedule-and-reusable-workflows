@@ -6,5 +6,6 @@ on:
 
 jobs:
   local-workflow:
+    runs-on: [ self-hosted, Linux, X64, internet-enabled ]
     steps:
       - run: echo "I'm just a simple cron"
