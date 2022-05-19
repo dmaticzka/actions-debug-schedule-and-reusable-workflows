@@ -2,7 +2,7 @@ name: caller-scheduled
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "* 9 * * *"
 
 jobs:
   call-local-workflow:
