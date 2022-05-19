@@ -1,0 +1,10 @@
+name: simple-scheduled
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+
+jobs:
+  local-workflow:
+    steps:
+      - run: echo "I'm just a simple cron"
