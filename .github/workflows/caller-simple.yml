@@ -6,5 +6,6 @@ jobs:
   call-local-workflow:
     uses: cicd/actions-debug-schedule-and-reusable-workflows/.github/workflows/called-workflow.yml@main
   simple-steps:
+    runs-on: [ self-hosted, Linux, X64, internet-enabled ]
     steps:
       - run: echo "simple step"
