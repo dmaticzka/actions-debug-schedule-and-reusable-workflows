@@ -1,5 +1,5 @@
 # actions-debug-schedule-and-reusable-workflows
-Minimal examples for evaluation and bugreport
+Minimal examples for evaluation and bugreport.
 
 ## .github/workflows/simple-scheduled.yml
 
